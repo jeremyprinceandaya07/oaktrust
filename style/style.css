@@ -514,7 +514,10 @@ ul{
 .footer-col-4 h4 {
   color: #fff;
 }
-
+.bottom-bar {
+  color: #fff;
+  text-align: center;
+}
 
 /*responsive*/
 @media(max-width: 767px){
