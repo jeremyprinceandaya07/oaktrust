@@ -216,6 +216,13 @@
       font-family: 'Kalam', cursive;
       margin: 25px 0 5px;
   }
+  .header-right h5 {
+    text-align: center;
+    color: #228B22;
+  }
+  .header-right p {
+    color: #228B22;
+  }
   
      .header {
       background: repeating-linear-gradient(#ffffff,#ffffff);
@@ -239,6 +246,18 @@
       padding-left: 50px;
       padding-right: 50px;
       
+  }
+  .btn {
+    display: inline-block;
+    background: #6dce8d;
+    color: #fff;
+    padding: 8px 18px;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition:  0.5ms;
+  }
+  .position-relative i {
+    font-family: 'kalam', cursive;
   }
   .header-bg{
       background: repeating-linear-gradient(#1f4e2b,#1f4e2b);
@@ -433,46 +452,7 @@ ul{
 	background-color: #004F24;
     padding: 70px 0;
 }
-.footer-col{
-   width: 20%;
-   padding: 0 20px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #e91e63;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
+.footer-col-4 .social-links a{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
@@ -484,10 +464,57 @@ ul{
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
+.footer-col-4 .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
 }
+.footer-col-0 {
+  padding: 0px 20px;
+}
+.footer-col-0 b {
+  color: #fff;
+}
+.footer-col-1 b {
+  color: #228B22;
+}
+.footer-col-1 a {
+  color: #fff;
+}
+.footer-col-1 h4 {
+  color: #fff;
+}
+.footer-col-1 {
+  padding: 0px 20px;
+  font-size: 15px;
+}
+.footer-col-2 {
+  padding: 0px 20px;
+  font-size: 15px;
+}
+.footer-col-2 a {
+  color: #fff;
+}
+.footer-col-2 h4 {
+  color: #fff;
+}
+.footer-col-3{
+  padding: 0px 20px;
+  font-size: 15px;
+}
+.footer-col-3 h4 {
+  color: #fff;
+}
+.footer-col-3 a {
+  color: #fff;
+}
+.footer-col-4 {
+  padding: 0px 20px;
+  font-size: 15px;
+}
+.footer-col-4 h4 {
+  color: #fff;
+}
+
 
 /*responsive*/
 @media(max-width: 767px){
