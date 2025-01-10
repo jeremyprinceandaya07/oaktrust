@@ -1,16 +1,11 @@
-
-
 /* Header*/
-    
-:root {
+    :root {
     --bgcolor: white;
   }
-  
   * {
     margin: 0;
     padding: 0;
   }
-  
   .page-header {
     background-color: var(--bgcolor);
     padding: 1.3rem;
@@ -23,33 +18,26 @@
     margin-left: 1.2rem;
     font-size: 2.5rem;
   }
-  
   .nav-bar {
     margin: auto;
   }
-  
   .nav-bar a {
     color: black;
     padding: 1rem;
     cursor: pointer;
     text-decoration: none;
-    
   }
-  
   .menu-icon {
     color: black;
     cursor: pointer;
     display: none;
   }
-  
   button {
     font-size: 1rem;
     border: 1px solid black;
     border-radius: 5px;
     padding: 0.9rem;
   }
-
-
   @media screen and (max-width: 700px) {
     .nav-bar {
       display: none;
@@ -60,20 +48,16 @@
       background-color: var(--bgcolor);
       text-align: center;
     }
-  
     .nav-bar.responsive {
       display: block;
     }
-  
     .nav-bar a {
       display: block;
     }
-  
     .menu-icon {
       display: block;
       z-index: 1;
     }
-  
     button {
       padding: 0.4rem;
     }
@@ -81,19 +65,12 @@
       font-size: 1.4rem;
     }
   }
+/* --End-Header--*/
 
-/* End-Header*/
-
-
-
-/* About */
-    
-    
-   
+/* --About-- */
     .fontWhite{
       color:#ffffff;
     }
-    
     .fontMerriweather{
       font-family: 'Merriweather', serif;
     }
@@ -103,13 +80,11 @@
     .headerHead{
         margin-bottom: 0px;
         letter-spacing: 0.5cap;
-        font-weight: bold;
-      
+        font-weight: bold; 
     }
     .headerWhite{
         margin-bottom: 30px;
     }
-
     .column {
         float: left;
         width: 33.33%;
@@ -122,11 +97,8 @@
     .headerBody{
         margin-top: 2cm;
          width: 50px;
-      
     }
-
-    .titleBody{
-        
+    .titleBody{ 
         margin-left: auto;
         margin-right: auto;
         margin-top: 1cm;
@@ -134,36 +106,26 @@
         width:65%;
  }
     .titleBodyText{
-    
         margin-left: auto;
         margin-right: auto;
         margin-top: 1cm;
         font-family: 'Arial', serif;
             font-size: medium;
-            width: 68%;    
-           
+            width: 68%;       
  }
-
  .fontTitle{
     font-family: 'Kalam', cursive;
     margin-top: 1cm;
     margin-left: 55%;
     font-size: 28px;
     color: #228B22;
-   
-
  }
-   
-
  .position-relative{
   margin-bottom: -1cm;
  }
-
-    /* End - About */
+/* --End-About-- */
     
-   
-    
-     /* Start - Meet the team */
+/* --Meet the team-- */
      *{
       margin: 0;
       padding: 0;
@@ -173,12 +135,9 @@
           font-family: "Roboto", sans-serif;
           font-style: bold;
   }
-  
-  
   .res p {
       color: #000000;
   }
- 
   h3 {
       color: #ffffff;
   }
@@ -223,7 +182,6 @@
   .header-right p {
     color: #228B22;
   }
-  
      .header {
       background: repeating-linear-gradient(#ffffff,#ffffff);
   }
@@ -244,12 +202,11 @@
       text-align: center;
       margin: auto;
       padding-left: 50px;
-      padding-right: 50px;
-      
+      padding-right: 50px;  
   }
   .btn {
     display: inline-block;
-    background: #6dce8d;
+    background: #08a83e;
     color: #fff;
     padding: 8px 18px;
     margin: 5px 0;
@@ -262,13 +219,11 @@
   .header-bg{
       background: repeating-linear-gradient(#1f4e2b,#1f4e2b);
   }
-  
   .team-section {
       font-family: sans-serif;
       padding: 150px;
       text-align: center;
   }
-  
   .team-section h2 {
       color: #228B22;
       font-family: Body Arial, Helvetica, sans-serif;
@@ -277,7 +232,6 @@
       margin-top: -120px; 
       font-size: 34px; 
   }
-  
   .team-grid {
       display: flex;
       flex-wrap: wrap;
@@ -286,7 +240,6 @@
       width: 90%;
       margin: 0 auto;
   }
-  
   .team-member {
       flex: 1 1 calc(30% - 20px);
       max-width: 300px;
@@ -296,87 +249,67 @@
       border-radius: 10px;
       transition: transform 0.3s ease;
   }
-  
   .team-member img {
       max-width: 100%;
       height: auto;
       border-radius: 10px;
       margin: 0 auto;
-      display: block;
-      
+      display: block;    
   }
-  
   @media (max-width: 768px) {
       .team-member {
           flex: 1 1 calc(50% - 20px);
       }
   }
-  
   @media (max-width: 560px) {
       .team-member {
           flex: 1 1 100%;
       }
   }
-  
-  
-  
-  
-  
-  
   .team-member h3 {
       margin-top: 0;
       margin-bottom: 5px;
       font-size:1.1em;
       color:#3AAA35;
-      text-align: left;
+      text-align: left; 
+      font-weight: bold; 
       
   }
-  
   .team-member .title {
       font-style: italic;
       color: #3a3a3a;
       margin-bottom: 10px;
+      font-weight: bold; 
   }
-  
   .team-member p a {
       color: #004F24;
     }
-  
   .team-member p {
       margin-bottom: 5px;
       font-size: 0.9em;
       color:#004F24;
       text-align: left;
+     
   }
-  
-  
-  
   .team-member .more-info a {
       color: #004F24;
       text-decoration: none;
+      font-weight: bold; 
   }
-  
   .team-member .more-info a:hover {
       text-decoration: underline;
   }
-  
-  
-  
-  
   @media (max-width: 768px) {
       .team-member {
         width: calc(50% - 20px); /* two columns in mobile view */
       }
    }
-  
     @media (max-width: 560px) {
           .team-member {
               width: 100%; /* single column in small screen view */
           }
       }
-
-
-     /*Image*/
+/*--Image--*/
      .drk2:after{
         content:"";
         display:block;
@@ -393,7 +326,6 @@
             background-size:cover;
             background-position:unset;
             }
-        
         
               .drk {
                 position: absolute;
@@ -412,8 +344,6 @@
                 height: 100vh;
                 max-height: 500px;
               }        
-    
-
               @media(min-width: 768px) {
                 .carousel-inner img {
                   max-height: none;
@@ -423,11 +353,8 @@
                   }
                 }
 
-
-
-                /*------Footer-------*/
-                
-                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/*------Footer-------*/         
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -474,6 +401,9 @@ ul{
 .footer-col-0 b {
   color: #fff;
 }
+.footer-col-0 p {
+  font-size: x-large;
+}
 .footer-col-1 b {
   color: #228B22;
 }
@@ -517,8 +447,9 @@ ul{
 .bottom-bar {
   color: #fff;
   text-align: center;
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 14px;
 }
-
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
@@ -531,7 +462,7 @@ ul{
     width: 100%;
 }
 }
-
+/*--End Footer--*/
 
 
 
