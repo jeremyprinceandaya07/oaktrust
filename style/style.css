@@ -223,12 +223,13 @@
       font-family: sans-serif;
       padding: 150px;
       text-align: center;
+      margin-bottom: -150px;
   }
   .team-section h2 {
       color: #228B22;
       font-family: Body Arial, Helvetica, sans-serif;
       font-weight: 650;
-      margin-bottom: 30px;
+      margin-bottom: 0px;
       margin-top: -120px; 
       font-size: 34px; 
   }
@@ -256,6 +257,8 @@
       margin: 0 auto;
       display: block;    
   }
+
+
   @media (max-width: 768px) {
       .team-member {
           flex: 1 1 calc(50% - 20px);
@@ -309,6 +312,144 @@
               width: 100%; /* single column in small screen view */
           }
       }
+/*--Janet Field--*/
+
+.container-info {
+  display: flex; 
+  margin-top: -1.5cm;
+  flex-direction: column; 
+  align-items: center; 
+  height: auto; 
+  min-height: 100vh; 
+
+  
+}
+
+/* Profile Section Styles */
+.profile-section {
+  display: flex; 
+  align-items: center; 
+  width: 50%; 
+  margin-bottom: 1em;
+  margin-left: 3cm;
+}
+
+.profile-section img {
+  width: 350px; 
+  height: auto; 
+  margin-right: 2em; 
+  border-radius: 8px;
+  position: static;
+  object-fit: cover;
+}
+
+/* Info Section Styles */
+.info-section {
+  text-align: left; 
+  margin-top: 5em;
+}
+/*Other section Styles*/
+.info-section h1 {
+  color: rgb(58, 170, 53);
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-bottom: 12.5em; 
+  left: 21px;
+  
+}
+.quote {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  padding-left: 4px;
+  text-align: left;
+  
+  bottom: 1200px;
+}
+
+.quote i {
+  margin-right: 10px;
+  color: green;
+  margin-top: 1em;
+  font-size: 24px;
+}
+
+.quote p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  margin: 0;
+  padding-left: 5px;
+  white-space: nowrap; 
+  overflow: hidden;   
+  text-overflow: ellipsis; 
+  margin-top: 1em;
+  
+}
+.quote i, .quote p {
+  position: relative;
+  display: flex;
+  bottom: 445px;
+  left: 300px;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+.contact {
+  display: flex;
+  flex-direction: column; 
+  gap: 0.1em; 
+  margin-bottom: 0em;
+  margin-top: -0.7em; 
+}
+.contact a, .contact i{
+  position: relative; 
+  display: flex; 
+  align-items: center; 
+  gap: 0.5em;
+}
+.contact a{
+  color: rgb(28, 30, 33);
+}
+.contact i {
+  color: rgb(58, 170, 53);
+}
+.contact p {
+  display: inline-flex; 
+  align-items: center;
+  gap: 0.5em; 
+  position: relative;
+  bottom: 510px;
+}
+
+.profile-section h2{
+  color: rgb(59, 180, 75);
+  font-size: 16px;
+  margin-bottom: 17px;
+  position: relative;
+  right: 20px;
+  top: 120px;
+  right: 243px;
+  letter-spacing: 0.32px;
+  line-height: 19.2px;
+  display: block;
+  
+}
+
+.profile-section h4 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin-bottom: 0.3em;
+  top: 120px;
+  position: relative;
+  right: 243px;
+  
+}
+
+
+/*--End of Janet Fields--*/
+
+
 /*--Image--*/
      .drk2:after{
         content:"";
@@ -463,6 +604,20 @@ ul{
 }
 }
 /*--End Footer--*/
-
-
-
+.colspan-2 a,  .colspan-2 h4{
+  color: rgb(6, 6, 6);
+  margin-left: 0cm;
+  width: 240%;
+  display: block;  
+  font-family: 'Arial', serif;
+  font-size: small;
+  margin-top: -0.4em;
+  margin-bottom: -0.4;
+  
+}
+.colspan-2 h2 {
+  color:#004F24(0, 0, 0);
+  font-family: 'Arial';
+      font-size: small;
+      width: 160%; 
+    }
